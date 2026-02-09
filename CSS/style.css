@@ -1,0 +1,19 @@
+/* CSS/style.css */
+h1 {
+    color: rgb(179, 183, 122);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    font-variant: normal;
+    font-style:oblique
+}
+p {
+    color: brown;
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
