@@ -1,5 +1,12 @@
 /* CSS/style.css */
-h1 {
+body {
+    background-color: antiquewhite;
+    background-image: url(../foto/bg.jpg);
+    background-position: top right;
+    font-family: Arial;
+    
+}
+h1,h2 {
     color: rgb(179, 183, 122);
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
@@ -12,8 +19,51 @@ p {
     color: brown;
     font-family: Arial;
     font-size: 25px;
-    text-align: center;
-    line-height: 50px;
+    text-align: justify;
+    line-height: 40px;
     letter-spacing: 2px;
     word-spacing: 2px;
+    text-indent: 50px;
+}
+#p1{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;  }
+a{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;}
+li{
+    color: rgb(2, 21, 2);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;}
+ol{
+    color: purple;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;}     
+ul li a {
+    color: brown;
+}
+.hello{
+    color: black;
+}
+.hello:hover{
+    color:blue;
+}
+#nav1:first-child a {
+    color: orange; 
+}
+p#menu {
+    color: black;
+}
+ul#sarapan li.makanan {
+    color: rgb(255, 166, 0);
 }
