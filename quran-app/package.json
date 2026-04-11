@@ -1,0 +1,51 @@
+{
+  "name": "al-quran-digital",
+  "version": "1.0.0",
+  "description": "Aplikasi web modern untuk membaca dan mendengarkan Al-Quran dengan integrasi API lengkap",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run server",
+    "dev": "npm run server",
+    "server": "python -m http.server 8000 || npx http-server -p 8000",
+    "build": "echo 'Build tidak diperlukan untuk vanilla JS'",
+    "test": "echo 'Silakan buka index.html di browser untuk testing'"
+  },
+  "keywords": [
+    "quran",
+    "al-quran",
+    "islamic",
+    "muslim",
+    "quranic",
+    "audio",
+    "reading",
+    "web-app",
+    "pwa",
+    "javascript"
+  ],
+  "author": "Al-Quran Digital Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/al-quran-digital.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^14.0.0"
+  },
+  "optionalDependencies": {},
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "maintained node versions"
+  ],
+  "notes": {
+    "description": "Aplikasi ini adalah Vanilla JavaScript (tidak menggunakan framework)",
+    "no-dependencies": "Semua fungsi built-in menggunakan browser API modern (Fetch, LocalStorage, Service Worker)",
+    "api": "Menggunakan Al-Quran Cloud API (gratis dan open-source)",
+    "offline_support": "Service Worker memungkinkan app bekerja offline setelah loading pertama"
+  }
+}
